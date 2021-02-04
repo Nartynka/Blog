@@ -1,0 +1,16 @@
+<%- include("partials/header") %>
+
+   <h1>Add new post</h1>
+   <form action="/edit" method="post">
+      <div class="form-floating">
+         <input type="text" placeholder="Title" autofocus class="form-control mb-3" name="title" id="title" required>
+         <label for="title">Title</label>
+      </div>
+      <div class="form-floating">
+         <textarea name="content" class="form-control mb-3" style="height: 200px" placeholder="Content" id="content" required></textarea>
+         <label for="content">Content</label>
+      </div>
+      <button class="btn btn-primary" type="submit">Publish</button>
+   </form>
+
+   <%- include("partials/footer") %>
