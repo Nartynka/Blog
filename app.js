@@ -79,6 +79,6 @@ app.use(function(req, res) {
   res.status(404).render('404');
 });
 
-app.listen(2137, function() {
+app.listen(process.env.PORT || 2137, function() {
   console.log("Server started on port 2137");
 });
