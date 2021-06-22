@@ -1,5 +1,5 @@
 # Blog website
-Simple blog websiet with backend hosted on heroku
+Simple blog website with backend hosted on Heroku
 ## Technologies
 #### Front-end
 * CSS
