@@ -1,13 +1,11 @@
 # Blog website
-Simple blog website with backend hosted on Heroku
+Simple fullstack project
 ## Technologies
-#### Front-end
+#### Frontend
 * CSS
 * JS
 * EJS
 
-### Back-end
+### Backend
 * Node.js with Express
 * MongoDB with mongoose
-
-Preview available [**here**](first-working-blog.herokuapp.com/)
